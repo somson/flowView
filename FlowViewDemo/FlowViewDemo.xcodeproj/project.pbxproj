@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D005A1C51D790CC200F5D1CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D005A1C41D790CC200F5D1CF /* main.m */; };
+		D005A1C81D790CC200F5D1CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D005A1C71D790CC200F5D1CF /* AppDelegate.m */; };
+		D005A1CB1D790CC200F5D1CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D005A1CA1D790CC200F5D1CF /* ViewController.m */; };
+		D005A1CE1D790CC200F5D1CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D005A1CC1D790CC200F5D1CF /* Main.storyboard */; };
+		D005A1D01D790CC200F5D1CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D005A1CF1D790CC200F5D1CF /* Assets.xcassets */; };
+		D005A1D31D790CC200F5D1CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D005A1D11D790CC200F5D1CF /* LaunchScreen.storyboard */; };
+		D005A1DE1D790CC200F5D1CF /* FlowViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D005A1DD1D790CC200F5D1CF /* FlowViewDemoTests.m */; };
+		D005A1E91D790CC200F5D1CF /* FlowViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D005A1E81D790CC200F5D1CF /* FlowViewDemoUITests.m */; };
+		D005A2331D797BBE00F5D1CF /* CustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D005A2251D797BBE00F5D1CF /* CustomFlowLayout.m */; };
+		D005A2341D797BBE00F5D1CF /* FlowCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D005A2271D797BBE00F5D1CF /* FlowCollectionView.m */; };
+		D005A2351D797BBE00F5D1CF /* FlowViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D005A2291D797BBE00F5D1CF /* FlowViewCell.m */; };
+		D005A2361D797BBE00F5D1CF /* FlowViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D005A22A1D797BBE00F5D1CF /* FlowViewCell.xib */; };
+		D005A2371D797BBE00F5D1CF /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D005A22C1D797BBE00F5D1CF /* pic1.jpg */; };
+		D005A2381D797BBE00F5D1CF /* pic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D005A22D1D797BBE00F5D1CF /* pic2.jpg */; };
+		D005A2391D797BBE00F5D1CF /* pic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D005A22E1D797BBE00F5D1CF /* pic3.jpg */; };
+		D005A23A1D797BBE00F5D1CF /* pic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D005A22F1D797BBE00F5D1CF /* pic4.jpg */; };
+		D005A23B1D797BBE00F5D1CF /* pic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D005A2301D797BBE00F5D1CF /* pic5.jpg */; };
+		D005A23C1D797BBE00F5D1CF /* pic6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D005A2311D797BBE00F5D1CF /* pic6.jpg */; };
+		D005A23D1D797BBE00F5D1CF /* pic7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D005A2321D797BBE00F5D1CF /* pic7.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D005A1DA1D790CC200F5D1CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D005A1B81D790CC200F5D1CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D005A1BF1D790CC200F5D1CF;
+			remoteInfo = FlowViewDemo;
+		};
+		D005A1E51D790CC200F5D1CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D005A1B81D790CC200F5D1CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D005A1BF1D790CC200F5D1CF;
+			remoteInfo = FlowViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D005A1C01D790CC200F5D1CF /* FlowViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D005A1C41D790CC200F5D1CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D005A1C61D790CC200F5D1CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D005A1C71D790CC200F5D1CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D005A1C91D790CC200F5D1CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D005A1CA1D790CC200F5D1CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D005A1CD1D790CC200F5D1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D005A1CF1D790CC200F5D1CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D005A1D21D790CC200F5D1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D005A1D41D790CC200F5D1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D005A1D91D790CC200F5D1CF /* FlowViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D005A1DD1D790CC200F5D1CF /* FlowViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowViewDemoTests.m; sourceTree = "<group>"; };
+		D005A1DF1D790CC200F5D1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D005A1E41D790CC200F5D1CF /* FlowViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D005A1E81D790CC200F5D1CF /* FlowViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlowViewDemoUITests.m; sourceTree = "<group>"; };
+		D005A1EA1D790CC200F5D1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D005A2241D797BBE00F5D1CF /* CustomFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFlowLayout.h; sourceTree = "<group>"; };
+		D005A2251D797BBE00F5D1CF /* CustomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFlowLayout.m; sourceTree = "<group>"; };
+		D005A2261D797BBE00F5D1CF /* FlowCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowCollectionView.h; sourceTree = "<group>"; };
+		D005A2271D797BBE00F5D1CF /* FlowCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowCollectionView.m; sourceTree = "<group>"; };
+		D005A2281D797BBE00F5D1CF /* FlowViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowViewCell.h; sourceTree = "<group>"; };
+		D005A2291D797BBE00F5D1CF /* FlowViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowViewCell.m; sourceTree = "<group>"; };
+		D005A22A1D797BBE00F5D1CF /* FlowViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlowViewCell.xib; sourceTree = "<group>"; };
+		D005A22C1D797BBE00F5D1CF /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.jpg; sourceTree = "<group>"; };
+		D005A22D1D797BBE00F5D1CF /* pic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic2.jpg; sourceTree = "<group>"; };
+		D005A22E1D797BBE00F5D1CF /* pic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic3.jpg; sourceTree = "<group>"; };
+		D005A22F1D797BBE00F5D1CF /* pic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic4.jpg; sourceTree = "<group>"; };
+		D005A2301D797BBE00F5D1CF /* pic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic5.jpg; sourceTree = "<group>"; };
+		D005A2311D797BBE00F5D1CF /* pic6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic6.jpg; sourceTree = "<group>"; };
+		D005A2321D797BBE00F5D1CF /* pic7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic7.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D005A1BD1D790CC200F5D1CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D005A1D61D790CC200F5D1CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D005A1E11D790CC200F5D1CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D005A1B71D790CC200F5D1CF = {
+			isa = PBXGroup;
+			children = (
+				D005A1C21D790CC200F5D1CF /* FlowViewDemo */,
+				D005A1DC1D790CC200F5D1CF /* FlowViewDemoTests */,
+				D005A1E71D790CC200F5D1CF /* FlowViewDemoUITests */,
+				D005A1C11D790CC200F5D1CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D005A1C11D790CC200F5D1CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D005A1C01D790CC200F5D1CF /* FlowViewDemo.app */,
+				D005A1D91D790CC200F5D1CF /* FlowViewDemoTests.xctest */,
+				D005A1E41D790CC200F5D1CF /* FlowViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D005A1C21D790CC200F5D1CF /* FlowViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D005A2231D797BBE00F5D1CF /* FlowView */,
+				D005A22B1D797BBE00F5D1CF /* images */,
+				D005A1C61D790CC200F5D1CF /* AppDelegate.h */,
+				D005A1C71D790CC200F5D1CF /* AppDelegate.m */,
+				D005A1C91D790CC200F5D1CF /* ViewController.h */,
+				D005A1CA1D790CC200F5D1CF /* ViewController.m */,
+				D005A1CC1D790CC200F5D1CF /* Main.storyboard */,
+				D005A1CF1D790CC200F5D1CF /* Assets.xcassets */,
+				D005A1D11D790CC200F5D1CF /* LaunchScreen.storyboard */,
+				D005A1D41D790CC200F5D1CF /* Info.plist */,
+				D005A1C31D790CC200F5D1CF /* Supporting Files */,
+			);
+			path = FlowViewDemo;
+			sourceTree = "<group>";
+		};
+		D005A1C31D790CC200F5D1CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D005A1C41D790CC200F5D1CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D005A1DC1D790CC200F5D1CF /* FlowViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D005A1DD1D790CC200F5D1CF /* FlowViewDemoTests.m */,
+				D005A1DF1D790CC200F5D1CF /* Info.plist */,
+			);
+			path = FlowViewDemoTests;
+			sourceTree = "<group>";
+		};
+		D005A1E71D790CC200F5D1CF /* FlowViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D005A1E81D790CC200F5D1CF /* FlowViewDemoUITests.m */,
+				D005A1EA1D790CC200F5D1CF /* Info.plist */,
+			);
+			path = FlowViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		D005A2231D797BBE00F5D1CF /* FlowView */ = {
+			isa = PBXGroup;
+			children = (
+				D005A2241D797BBE00F5D1CF /* CustomFlowLayout.h */,
+				D005A2251D797BBE00F5D1CF /* CustomFlowLayout.m */,
+				D005A2261D797BBE00F5D1CF /* FlowCollectionView.h */,
+				D005A2271D797BBE00F5D1CF /* FlowCollectionView.m */,
+				D005A2281D797BBE00F5D1CF /* FlowViewCell.h */,
+				D005A2291D797BBE00F5D1CF /* FlowViewCell.m */,
+				D005A22A1D797BBE00F5D1CF /* FlowViewCell.xib */,
+			);
+			path = FlowView;
+			sourceTree = "<group>";
+		};
+		D005A22B1D797BBE00F5D1CF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D005A22C1D797BBE00F5D1CF /* pic1.jpg */,
+				D005A22D1D797BBE00F5D1CF /* pic2.jpg */,
+				D005A22E1D797BBE00F5D1CF /* pic3.jpg */,
+				D005A22F1D797BBE00F5D1CF /* pic4.jpg */,
+				D005A2301D797BBE00F5D1CF /* pic5.jpg */,
+				D005A2311D797BBE00F5D1CF /* pic6.jpg */,
+				D005A2321D797BBE00F5D1CF /* pic7.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D005A1BF1D790CC200F5D1CF /* FlowViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D005A1ED1D790CC200F5D1CF /* Build configuration list for PBXNativeTarget "FlowViewDemo" */;
+			buildPhases = (
+				D005A1BC1D790CC200F5D1CF /* Sources */,
+				D005A1BD1D790CC200F5D1CF /* Frameworks */,
+				D005A1BE1D790CC200F5D1CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowViewDemo;
+			productName = FlowViewDemo;
+			productReference = D005A1C01D790CC200F5D1CF /* FlowViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D005A1D81D790CC200F5D1CF /* FlowViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D005A1F01D790CC200F5D1CF /* Build configuration list for PBXNativeTarget "FlowViewDemoTests" */;
+			buildPhases = (
+				D005A1D51D790CC200F5D1CF /* Sources */,
+				D005A1D61D790CC200F5D1CF /* Frameworks */,
+				D005A1D71D790CC200F5D1CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D005A1DB1D790CC200F5D1CF /* PBXTargetDependency */,
+			);
+			name = FlowViewDemoTests;
+			productName = FlowViewDemoTests;
+			productReference = D005A1D91D790CC200F5D1CF /* FlowViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D005A1E31D790CC200F5D1CF /* FlowViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D005A1F31D790CC200F5D1CF /* Build configuration list for PBXNativeTarget "FlowViewDemoUITests" */;
+			buildPhases = (
+				D005A1E01D790CC200F5D1CF /* Sources */,
+				D005A1E11D790CC200F5D1CF /* Frameworks */,
+				D005A1E21D790CC200F5D1CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D005A1E61D790CC200F5D1CF /* PBXTargetDependency */,
+			);
+			name = FlowViewDemoUITests;
+			productName = FlowViewDemoUITests;
+			productReference = D005A1E41D790CC200F5D1CF /* FlowViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D005A1B81D790CC200F5D1CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xhoogee;
+				TargetAttributes = {
+					D005A1BF1D790CC200F5D1CF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = NRM5GEMRLP;
+					};
+					D005A1D81D790CC200F5D1CF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D005A1BF1D790CC200F5D1CF;
+					};
+					D005A1E31D790CC200F5D1CF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D005A1BF1D790CC200F5D1CF;
+					};
+				};
+			};
+			buildConfigurationList = D005A1BB1D790CC200F5D1CF /* Build configuration list for PBXProject "FlowViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D005A1B71D790CC200F5D1CF;
+			productRefGroup = D005A1C11D790CC200F5D1CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D005A1BF1D790CC200F5D1CF /* FlowViewDemo */,
+				D005A1D81D790CC200F5D1CF /* FlowViewDemoTests */,
+				D005A1E31D790CC200F5D1CF /* FlowViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D005A1BE1D790CC200F5D1CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D005A2361D797BBE00F5D1CF /* FlowViewCell.xib in Resources */,
+				D005A23C1D797BBE00F5D1CF /* pic6.jpg in Resources */,
+				D005A23D1D797BBE00F5D1CF /* pic7.jpg in Resources */,
+				D005A2381D797BBE00F5D1CF /* pic2.jpg in Resources */,
+				D005A2371D797BBE00F5D1CF /* pic1.jpg in Resources */,
+				D005A1D31D790CC200F5D1CF /* LaunchScreen.storyboard in Resources */,
+				D005A23B1D797BBE00F5D1CF /* pic5.jpg in Resources */,
+				D005A1D01D790CC200F5D1CF /* Assets.xcassets in Resources */,
+				D005A1CE1D790CC200F5D1CF /* Main.storyboard in Resources */,
+				D005A2391D797BBE00F5D1CF /* pic3.jpg in Resources */,
+				D005A23A1D797BBE00F5D1CF /* pic4.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D005A1D71D790CC200F5D1CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D005A1E21D790CC200F5D1CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D005A1BC1D790CC200F5D1CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D005A2341D797BBE00F5D1CF /* FlowCollectionView.m in Sources */,
+				D005A1CB1D790CC200F5D1CF /* ViewController.m in Sources */,
+				D005A1C81D790CC200F5D1CF /* AppDelegate.m in Sources */,
+				D005A2331D797BBE00F5D1CF /* CustomFlowLayout.m in Sources */,
+				D005A2351D797BBE00F5D1CF /* FlowViewCell.m in Sources */,
+				D005A1C51D790CC200F5D1CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D005A1D51D790CC200F5D1CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D005A1DE1D790CC200F5D1CF /* FlowViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D005A1E01D790CC200F5D1CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D005A1E91D790CC200F5D1CF /* FlowViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D005A1DB1D790CC200F5D1CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D005A1BF1D790CC200F5D1CF /* FlowViewDemo */;
+			targetProxy = D005A1DA1D790CC200F5D1CF /* PBXContainerItemProxy */;
+		};
+		D005A1E61D790CC200F5D1CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D005A1BF1D790CC200F5D1CF /* FlowViewDemo */;
+			targetProxy = D005A1E51D790CC200F5D1CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D005A1CC1D790CC200F5D1CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D005A1CD1D790CC200F5D1CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D005A1D11D790CC200F5D1CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D005A1D21D790CC200F5D1CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D005A1EB1D790CC200F5D1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D005A1EC1D790CC200F5D1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D005A1EE1D790CC200F5D1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FlowViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhoogee.FlowViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D005A1EF1D790CC200F5D1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FlowViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhoogee.FlowViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D005A1F11D790CC200F5D1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlowViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhoogee.FlowViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowViewDemo.app/FlowViewDemo";
+			};
+			name = Debug;
+		};
+		D005A1F21D790CC200F5D1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlowViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhoogee.FlowViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowViewDemo.app/FlowViewDemo";
+			};
+			name = Release;
+		};
+		D005A1F41D790CC200F5D1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlowViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhoogee.FlowViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlowViewDemo;
+			};
+			name = Debug;
+		};
+		D005A1F51D790CC200F5D1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlowViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xhoogee.FlowViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlowViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D005A1BB1D790CC200F5D1CF /* Build configuration list for PBXProject "FlowViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D005A1EB1D790CC200F5D1CF /* Debug */,
+				D005A1EC1D790CC200F5D1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D005A1ED1D790CC200F5D1CF /* Build configuration list for PBXNativeTarget "FlowViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D005A1EE1D790CC200F5D1CF /* Debug */,
+				D005A1EF1D790CC200F5D1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D005A1F01D790CC200F5D1CF /* Build configuration list for PBXNativeTarget "FlowViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D005A1F11D790CC200F5D1CF /* Debug */,
+				D005A1F21D790CC200F5D1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D005A1F31D790CC200F5D1CF /* Build configuration list for PBXNativeTarget "FlowViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D005A1F41D790CC200F5D1CF /* Debug */,
+				D005A1F51D790CC200F5D1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D005A1B81D790CC200F5D1CF /* Project object */;
+}
